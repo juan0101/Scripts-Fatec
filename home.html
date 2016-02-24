@@ -1,13 +1,75 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="estilo.css">		
 		<title>
-		
+			Scripts Fatec
 		</title>
 	</head>
 	<body>
-	
+		<div id="sumario">
+			<a href="#texto1">Texto1</a></br>
+			<a href="#texto2">Texto2</a>
+		</div>
+		
+		<div id="texto1">
+			Texto 1
+			<p>
+				Parágrafo 1
+				<br/>
+				ola ola ola ola
+				<br/>
+				123412341234
+				<span style="color:red">vermelho</span>
+				<span style="color:blue">azul</span>
+			</p>
+		</div>
+		<div id="texto2"> 
+			Texto 2
+			<p>
+			<h1>Hello h1</h1>
+			<h2>Hello h2</h2>
+			<h3>Hello h3</h3>
+				Parágrafo 2
+			</p>
+			<a href="http://www.hu3tech.blogspot.com.br/"> Hu3tech </a> <br/>
+			<a href="https://github.com/juan0101" target="_blank"> Juan Git </a> </br>
+			<a href="/outra.html">Outra pagina localhost</a> </br>
+			<a href="http://www.google.com/"><img src="img/btnPlay.png" width="100px" height="180px"/></a>
+			
+		</div>	
+		<div id="formulario">
+			<form action="receber" id="form1">
+				<fieldset>
+					<legend>Informações pessoais</legend>
+					<input type="text" name="nome" value="juan" />
+				</fieldset> 
+				<fieldset>
+					<legend>Endereço</legend>
+					Estado:
+					<select name="estado">
+						<option value="ac">Acre</option>
+						<option value="rj">Rio de Janeiro</option>
+						<option value="sp" selected>São Paulo</option>
+					</select></br></br>
+					Sexo:
+					Masculino <input type="radio" name="sexo" value="m" />
+					Feminino <input type="radio" name="sexo" value="f" />
+				</fieldset> 
+				
+				<button type="submit"> Enviar </button>
+			</form>
+			<table>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Idade</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+		</div>
+		
 	</body>
 </html>
